@@ -24,7 +24,7 @@ const Footer = () => {
             </Text>
             <Text ml={2} pb={"60px"}>
               {" "}
-              Communicate. Collabrate. Create
+              The Cultural Colour of PSIT.
             </Text>
           </Box>
         </Box>
@@ -34,9 +34,9 @@ const Footer = () => {
         <Box ml={85} display={"flex"}>
           <Box textAlign={"left"}>
             <Heading fontSize={20}>Contact</Heading>
-            <Text pt={7}>500 Terry Francois Street</Text>
-            <Text>San Francisco, CA 94158</Text>
-            <Text pt={7}>General Inquiries: </Text>
+            <Text pt={7}>Faculty Head</Text>
+            <Text>jlkdjljlkjdlkfsdsfd</Text>
+            <Text pt={7}>For any queries : </Text>
             <Text>123-456-7890</Text>
           </Box>
         </Box>
@@ -49,13 +49,13 @@ const Footer = () => {
         >
           <Box ml={85} display={"flex"}>
             <Box textAlign={"left"}>
-              <Text>Sales:</Text>
+              <Text>Contact email: </Text>
               <a href="https://mail.google.com/" target="_blank">
                 <Text _hover={{ color: "black" }}>info@mysite.com</Text>
               </a>
-              <Text pt={7}>Customer Care: </Text>
+              <Text pt={7}>Technical Head: </Text>
               <a href="https://mail.google.com/" target={"_blank"}>
-                <Text _hover={{ color: "black" }}>info@mysite.com</Text>
+                <Text _hover={{ color: "black" }}>978794879554</Text>
               </a>
             </Box>
           </Box>
@@ -64,11 +64,7 @@ const Footer = () => {
         <Box display={"flex"}  pb={"60px"}>
           <Box ml={100} display={"flex"}>
             <Box textAlign={"left"}>
-              <Heading fontSize={20}>Quick Links</Heading>
-              <Box pt={7}></Box>
-              <Text as="u">Terms & Conditions</Text>
-              <Box pt={7}></Box>
-              <Text as="u">Privacy Policy </Text>
+              
             </Box>
           </Box>
         </Box>
@@ -77,13 +73,10 @@ const Footer = () => {
           <Box ml={100} display={"flex"}>
             <Box textAlign={"left"}>
               <Heading fontSize={20}>Follow</Heading>
-              <Text pt={7}>Sign up to get the latest news</Text>
-              <Text> on our product.</Text>
+              <Text pt={7}>Join us to get latest Updates</Text>
               <br />
 
-              <Text pb={"6px"}>Email*</Text>
               {/* button */}
-              <Subscribe />
             </Box>
           </Box>
         </Box>
@@ -93,7 +86,7 @@ const Footer = () => {
             <Box textAlign={"left"}>
               <a href="https://www.linkedin.com/" target={"_blank"}>
                 <Heading fontSize={20} _hover={{ color: "black" }}>
-                  LinkedIn
+                  Instagram
                 </Heading>
               </a>
               <br />
@@ -113,31 +106,11 @@ const Footer = () => {
           </Box>
         </Box>
       </Box>
-      <Center display={"flex"}>
-        <Text color={"white"} pb={1}>
-          © 2035 WeDu. Powered and secured by <Box as="u">Wix </Box>
-        </Text>
-      </Center>
+    
     </Box>
   );
 
-  function Subscribe() {
-    return (
-      <InputGroup size="md">
-        <Input borderColor={"black"} pr="1.75rem" borderWidth={2} />
-        <InputRightElement width="4.5rem">
-          <Button
-            h="2.5rem"
-            size="sm"
-            backgroundColor={"black"}
-            color={"white"}
-          >
-            Subscribe
-          </Button>
-        </InputRightElement>
-      </InputGroup>
-    );
-  }
+  
 };
 
 export default Footer;

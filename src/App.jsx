@@ -1,6 +1,8 @@
 import './App.css'
 import Events from './components/Events'
 import Navbar from './components/Navbar'
+import LandingPage from './components/Main'
+import Footer from './components/Footer'
 
 
 
@@ -10,7 +12,10 @@ function App() {
     <div className="App">
 
       <Navbar/>
+      <LandingPage />
       <Events />
+      <Footer/>
+
     </div>
   )
 }

@@ -126,7 +126,7 @@ export default function LandingPage() {
           p={["12", "24", "24", "24"]}
           pl={["", "", "20", "20"]}
         >
-          <Text>With the Right Software, Great Things Can Happen</Text>
+          <Text>Club Ambassador Message </Text>
         </Box>
 
         <Box p={["12", "24", "24", "24"]}>
