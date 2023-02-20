@@ -126,7 +126,11 @@ export default function LandingPage() {
           p={["12", "24", "24", "24"]}
           pl={["", "", "20", "20"]}
         >
+
           <Text>Club Ambassador Message </Text>
+
+          <Text>Campus Ambassador</Text>
+ 259c6e47f25505d11c305e2084b04dd7b9adcee9
         </Box>
 
         <Box p={["12", "24", "24", "24"]}>
