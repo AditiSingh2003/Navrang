@@ -12,6 +12,7 @@ import {
     DrawerCloseButton,
     useDisclosure,
     Flex,
+    Image,
   } from "@chakra-ui/react";
   import { HamburgerIcon } from "@chakra-ui/icons";
   import React from "react";
@@ -33,9 +34,12 @@ import {
             display={"flex"}
             className="navbar-ul"
           >
-            <ListItem p={"2"} className="navbar-li">
+          <ListItem p={"2"}>
+            <Image boxSize={"12"} src="public/NAVRANG2.png" />
+          </ListItem>
+            <ListItem p={"2"} px={"0"} className="navbar-li">
               
-                <Text as={"b"} ml={"10"} fontSize={"x-large"}>
+                <Text as={"b"} fontSize={"x-large"}>
                  Navrang
                 </Text>
              
