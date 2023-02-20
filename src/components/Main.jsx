@@ -129,9 +129,6 @@ export default function LandingPage() {
           <Text>Club Ambassador Message </Text>
 
           <Text>Campus Ambassador</Text>
-        
-
- 
         </Box>
 
         <Box p={["12", "24", "24", "24"]}>

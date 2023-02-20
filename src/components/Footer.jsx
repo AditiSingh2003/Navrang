@@ -14,7 +14,7 @@ import { Input } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
-    <Box backgroundColor={"pink"}>
+    <Box backgroundColor="#EA047E">
       <Box display={"flex"}>
         <Box ml={6} display={"flex"} pt={"60px"}>
           <Image src="" height={"50px"}></Image>
@@ -41,12 +41,7 @@ const Footer = () => {
           </Box>
         </Box>
 
-        <Box
-          display={"flex"}
-          
-          pt={"50px"}
-          pb={"60px"}
-        >
+        <Box display={"flex"} pt={"50px"} pb={"60px"}>
           <Box ml={85} display={"flex"}>
             <Box textAlign={"left"}>
               <Text>Sales:</Text>
@@ -61,7 +56,7 @@ const Footer = () => {
           </Box>
         </Box>
 
-        <Box display={"flex"}  pb={"60px"}>
+        <Box display={"flex"} pb={"60px"}>
           <Box ml={100} display={"flex"}>
             <Box textAlign={"left"}>
               <Heading fontSize={20}>Quick Links</Heading>
@@ -73,7 +68,7 @@ const Footer = () => {
           </Box>
         </Box>
 
-        <Box display={"flex"}  pb={"60px"}>
+        <Box display={"flex"} pb={"60px"}>
           <Box ml={100} display={"flex"}>
             <Box textAlign={"left"}>
               <Heading fontSize={20}>Follow</Heading>
@@ -113,11 +108,6 @@ const Footer = () => {
           </Box>
         </Box>
       </Box>
-      <Center display={"flex"}>
-        <Text color={"white"} pb={1}>
-          © 2035 WeDu. Powered and secured by <Box as="u">Wix </Box>
-        </Text>
-      </Center>
     </Box>
   );
 

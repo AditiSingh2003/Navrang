@@ -227,9 +227,10 @@ const SingingCard = () => {
       <Card variant={"filled"} borderRadius="3xl">
         <CardHeader>
           <Image
-          onClick={onOpen}
-          _hover={{ cursor: "pointer"}}
-           src="public/WhatsApp Image 2023-02-17 at 2.45.04 PM.jpeg" />
+            onClick={onOpen}
+            _hover={{ cursor: "pointer" }}
+            src="public/WhatsApp Image 2023-02-17 at 2.45.04 PM.jpeg"
+          />
         </CardHeader>
         <CardBody>
           <Box p={"1"}>
