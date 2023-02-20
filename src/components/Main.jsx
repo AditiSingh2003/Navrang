@@ -64,10 +64,10 @@ export default function LandingPage() {
         >
           <Box display={"flex"} justifyContent="center" alignContent={"center"} width={'500px'}>
             <Image
-              src="/NAVRANG2.png"
-              boxSize={'xl'}
-              m={["", "", "10", "10"]}
-              p={["", "", "10", "10"]}
+              src="/banner.png"
+         
+              m={["", "", "10", "0"]}
+              p={["", "", "10", "0"]}
             />
           </Box>
           <Box display={["none", "", "flex"]} justifyContent="flex-end">
