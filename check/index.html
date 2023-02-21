@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <style>
+    #video-container {
+      position: fixed;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    #video-container video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      transform: translate(-50%, -50%);
+    }
+
+    /* Hide all other content until video has finished playing */
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="video-container">
+    <video src="./navrang-trailer.mp4" autoplay muted></video>
+  </div>
+
+  <div class="hidden">
+    <!-- Rest of the page content -->
+    <h1>Welcome to my website</h1>
+    <p>This is my homepage</p>
+    <!-- More content here -->
+  </div>
+
+  <script>
+    var video = document.querySelector('video');
+    video.addEventListener('ended', function() {
+      // Hide the video and display the rest of the content
+      var videoContainer = document.querySelector('#video-container');
+      videoContainer.style.display = 'none';
+      var hiddenContent = document.querySelectorAll('.hidden');
+      for (var i = 0; i < hiddenContent.length; i++) {
+        hiddenContent[i].style.display = 'block';
+      }
+    });
+  </script>
+</body>
+</html>
